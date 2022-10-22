@@ -29,6 +29,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+html{
+	background: url('https://i.pinimg.com/originals/24/5b/41/245b41ddade76613f64c5c548bcfc8cf.jpg') center center fixed;
+}
 body {
 	line-height: 1;
 }
@@ -94,9 +97,6 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-		background: #f4f4f4;
-	}
 
 		body.is-preload-0 *, body.is-preload-0 *:before, body.is-preload-0 *:after {
 			-moz-animation: none !important;
@@ -147,7 +147,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #45d1a9 !important;
+			color: #ed9bcc !important;
 			border-bottom-color: transparent;
 		}
 
@@ -1133,8 +1133,8 @@ input, select, textarea {
 		button.active,
 		.button:hover,
 		.button.active {
-			box-shadow: inset 0 0 0 1px #45d1a9;
-			color: #45d1a9 !important;
+			box-shadow: inset 0 0 0 1px #ed9bcc;
+			color:#ee64b7 !important;
 		}
 
 		input[type="submit"]:active, input[type="submit"].active,
@@ -1552,12 +1552,10 @@ input, select, textarea {
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
 		margin: 3em 0 0 0;
-		opacity: 1.0;
 		text-align: center;
 	}
 
 		#footer .copyright {
-			color: #bbb;
 			font-size: 0.8em;
 			letter-spacing: 0.25em;
 			margin-bottom: 0;
